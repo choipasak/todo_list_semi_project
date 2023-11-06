@@ -1,6 +1,15 @@
+@font-face {
+  font-family: 'Nanum AmSeuTeReuDam';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_01@1.0/Amsterdam.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   font-size: 62.5%;
   background-image: url(../assets/bg.png);
+  font-family: 'Nanum AmSeuTeReuDam', serif;
 }
 * {
   margin: auto;

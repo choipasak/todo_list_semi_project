@@ -1,5 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
 <!DOCTYPE html>
 <html>
 
@@ -8,7 +9,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <title>Todok Join</title>
-  <link rel="stylesheet" href="./font/AmSeuTeReuDam.ttf" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400" />
   <link rel="stylesheet" href="./styles/join.css" />
@@ -27,11 +27,11 @@
       </div>
 
       <!-- form 시작 -->
-      <form>
+      <form name="joinForm" >
         <div class="id-VjX">
           <div class="idtext-daq">아아디</div>
           <div class="auto-group-75km-mS9">
-            <input type="text" class="inputidbox-Vsw" placeholder="아이디를 입력해주세요" />
+            <input name="userId" type="text" class="inputidbox-Vsw" placeholder="아이디를 입력해주세요" />
             <div class="auto-group-4l25-n6M">
               <button type="button" class="idchecktext-L7s">아이디 중복확인</button>
               <img class="btn-qaR" src="./assets/btn.png" />
