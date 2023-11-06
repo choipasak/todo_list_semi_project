@@ -1,0 +1,617 @@
+html {
+  font-size: 62.5%;
+  background-image: url(../assets/bg.png);
+}
+* {
+  margin: auto;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+input {
+  border: none;
+}
+body {
+  width: 192rem;
+}
+.board-xLZ {
+  box-sizing: border-box;
+  padding: 0rem 2rem 0rem 2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+.board-xLZ .auto-group-skmt-U41 {
+  margin: 0rem 33.9rem 1.2rem 0rem;
+  width: calc(100% - 33.9rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.board-xLZ .auto-group-skmt-U41 .todoksidelogo-zHF {
+  margin-right: 22.1rem;
+  width: 13.2rem;
+  height: 9.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.board-xLZ .auto-group-skmt-U41 .regboardinputbox-WWV {
+  margin-top: 4.3rem;
+  box-sizing: border-box;
+  padding: 2rem 5.7rem 5.9rem 4rem;
+  height: 23rem;
+  display: flex;
+  align-items: center;
+  border: solid 0.5rem rgba(52, 152, 219, 0.5500000119);
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.150000006);
+  backdrop-filter: blur(0.2rem);
+  background-color: rgba(255, 255, 255, 0.4199999869);
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.board-xLZ .auto-group-skmt-U41 .regboardinputbox-WWV .regboarduserprofile-1y3 {
+  margin: 0rem 3.3rem 4.15rem 0rem;
+  width: 9.9rem;
+  height: 9.9rem;
+  border: solid 0.2rem #e2c395;
+  box-sizing: border-box;
+  background-color: rgba(244, 222, 189, 0.4199999869);
+  border-radius: 4.95rem;
+  flex-shrink: 0;
+}
+.board-xLZ .auto-group-skmt-U41 .regboardinputbox-WWV .auto-group-d2mf-VdK {
+  margin-right: 3.1rem;
+  width: 83.7rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.board-xLZ
+  .auto-group-skmt-U41
+  .regboardinputbox-WWV
+  .auto-group-d2mf-VdK
+  .regboarduser-dDj {
+  margin-bottom: 0.85rem;
+  display: flex;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.2rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.board-xLZ
+  .auto-group-skmt-U41
+  .regboardinputbox-WWV
+  .auto-group-d2mf-VdK
+  .auto-group-naob-iky {
+  box-sizing: border-box;
+  padding: 1.75rem 2.4rem;
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.3rem rgba(202, 202, 202, 0.8700000048);
+  background-color: rgba(245, 245, 245, 0.4199999869);
+  border-radius: 1rem;
+}
+.board-xLZ .auto-group-skmt-U41 .regboardinputbox-WWV .regbtn-8ph {
+  width: 6.7rem;
+  height: 6.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.board-xLZ .boardorderbtn-oA9 {
+  margin: 0rem 61rem 2rem 61.5rem;
+  width: calc(100% - 122.5rem);
+  height: 5.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.board-xLZ .boardorderbtn-oA9 .recomdorderbtn-WqF {
+  border: none;
+  margin-right: 22.7rem;
+  box-sizing: border-box;
+  padding: 0.05rem 7.25rem 0.05rem 6.55rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/btnbox-wFP.png');
+  border-radius: 4rem;
+  flex-shrink: 0;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.150000006);
+}
+.board-xLZ .boardorderbtn-oA9 .latestorderbtn-LpH {
+  border: none;
+  box-sizing: border-box;
+  padding: 0.05rem 6.95rem 0.05rem 6.85rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/btnbox-nUh.png');
+  border-radius: 4rem;
+  flex-shrink: 0;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.150000006);
+  backdrop-filter: blur(0.2rem);
+  background-color: rgba(245, 245, 245, 0.4199999869);
+}
+.board-xLZ .boardtodo-QZF {
+  margin: 0rem 46.3rem 0rem 46.8rem;
+  width: calc(100% - 93.1rem);
+  row-gap: 1.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.board-xLZ .boardtodo-QZF .boardtodo1-W6V {
+  box-sizing: border-box;
+  padding: 0.7rem 4rem 0.95rem 3rem;
+  width: 100%;
+  height: 12.2rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.150000006);
+  backdrop-filter: blur(0.2rem);
+  background-color: rgba(255, 255, 255, 0.400000006);
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.board-xLZ .boardtodo-QZF .boardtodo1-W6V .boardlistprofile-RjF {
+  margin: 0.25rem 1rem 0rem 0rem;
+  width: 8rem;
+  height: 8rem;
+  border: solid 0.2rem #e5d0fb;
+  box-sizing: border-box;
+  background-color: rgba(229, 207, 250, 0.4199999869);
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.board-xLZ .boardtodo-QZF .boardtodo1-W6V .auto-group-8wsh-Kpd {
+  margin-right: 35rem;
+  width: 37.5rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.board-xLZ
+  .boardtodo-QZF
+  .boardtodo1-W6V
+  .auto-group-8wsh-Kpd
+  .boardlistuser-rZf {
+  width: 37.5rem;
+  height: 3.2rem;
+  position: absolute;
+  left: 0;
+  top: 1.25rem;
+  display: flex;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.125rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.board-xLZ
+  .boardtodo-QZF
+  .boardtodo1-W6V
+  .auto-group-8wsh-Kpd
+  .boardlistdate-9Ym {
+  width: 10.1rem;
+  height: 1.7rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.board-xLZ
+  .boardtodo-QZF
+  .boardtodo1-W6V
+  .auto-group-8wsh-Kpd
+  .boardlistcontent-fn1 {
+  width: 700px;
+  height: 6.3rem;
+  position: absolute;
+  left: 0;
+  top: 4.25rem;
+  display: flex;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+}
+.board-xLZ .boardtodo-QZF .boardtodo1-W6V .auto-group-mgfb-PCD {
+  margin-top: 2.35rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.board-xLZ .boardtodo-QZF .boardtodo1-W6V .auto-group-mgfb-PCD .like-XZK {
+  margin-bottom: 0.4rem;
+  width: 4rem;
+  height: 3.3rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.board-xLZ .boardtodo-QZF .boardtodo1-W6V .auto-group-mgfb-PCD .heartnum-sdB {
+  margin-top: 5px;
+  font-size: 2.1rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #70665d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.board-xLZ .boardtodo-QZF .boardtodo2-Lmf {
+  box-sizing: border-box;
+  padding: 0.7rem 4rem 0.95rem 3rem;
+  width: 100%;
+  height: 12.2rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.150000006);
+  backdrop-filter: blur(0.2rem);
+  background-color: rgba(255, 255, 255, 0.400000006);
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.board-xLZ .boardtodo-QZF .boardtodo2-Lmf .boardlistprofile-TbP {
+  margin: 0.25rem 1rem 0rem 0rem;
+  width: 8rem;
+  height: 8rem;
+  border: solid 0.2rem #e5d0fb;
+  box-sizing: border-box;
+  background-color: rgba(229, 207, 250, 0.4199999869);
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.board-xLZ .boardtodo-QZF .boardtodo2-Lmf .auto-group-bx4y-kqP {
+  margin-right: 35rem;
+  width: 37.5rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.board-xLZ
+  .boardtodo-QZF
+  .boardtodo2-Lmf
+  .auto-group-bx4y-kqP
+  .boardlistuser-JM7 {
+  width: 37.5rem;
+  height: 3.2rem;
+  position: absolute;
+  left: 0;
+  top: 1.25rem;
+  display: flex;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.125rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.board-xLZ
+  .boardtodo-QZF
+  .boardtodo2-Lmf
+  .auto-group-bx4y-kqP
+  .boardlistdate-apR {
+  width: 10.1rem;
+  height: 1.7rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.board-xLZ
+  .boardtodo-QZF
+  .boardtodo2-Lmf
+  .auto-group-bx4y-kqP
+  .boardlistcontent-JkR {
+  width: 700px;
+  height: 6.3rem;
+  position: absolute;
+  left: 0;
+  top: 4.25rem;
+  display: flex;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+}
+.board-xLZ .boardtodo-QZF .boardtodo2-Lmf .auto-group-htzd-d21 {
+  margin-top: 2.35rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.board-xLZ .boardtodo-QZF .boardtodo2-Lmf .auto-group-htzd-d21 .like-yLm {
+  margin-bottom: 0.4rem;
+  width: 4rem;
+  height: 3.3rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.board-xLZ .boardtodo-QZF .boardtodo2-Lmf .auto-group-htzd-d21 .heartnum-iJM {
+  margin-top: 5px;
+  font-size: 2.1rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #70665d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.board-xLZ .boardtodo-QZF .boardtodo3-PQV {
+  box-sizing: border-box;
+  padding: 0.7rem 4rem 0.95rem 3rem;
+  width: 100%;
+  height: 12.2rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.150000006);
+  backdrop-filter: blur(0.2rem);
+  background-color: rgba(255, 255, 255, 0.400000006);
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.board-xLZ .boardtodo-QZF .boardtodo3-PQV .boardlistprofile-7rH {
+  margin: 0.25rem 1rem 0rem 0rem;
+  width: 8rem;
+  height: 8rem;
+  border: solid 0.2rem #e5d0fb;
+  box-sizing: border-box;
+  background-color: rgba(229, 207, 250, 0.4199999869);
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.board-xLZ .boardtodo-QZF .boardtodo3-PQV .auto-group-omqs-EAD {
+  margin-right: 35rem;
+  width: 37.5rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.board-xLZ
+  .boardtodo-QZF
+  .boardtodo3-PQV
+  .auto-group-omqs-EAD
+  .boardlistuser-y7o {
+  width: 37.5rem;
+  height: 3.2rem;
+  position: absolute;
+  left: 0;
+  top: 1.25rem;
+  display: flex;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.125rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.board-xLZ
+  .boardtodo-QZF
+  .boardtodo3-PQV
+  .auto-group-omqs-EAD
+  .boardlistdate-sDB {
+  width: 10.1rem;
+  height: 1.7rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.board-xLZ
+  .boardtodo-QZF
+  .boardtodo3-PQV
+  .auto-group-omqs-EAD
+  .boardlistcontent-Bjf {
+  width: 700px;
+  height: 6.3rem;
+  position: absolute;
+  left: 0;
+  top: 4.25rem;
+  display: flex;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+}
+.board-xLZ .boardtodo-QZF .boardtodo3-PQV .auto-group-cwts-WG9 {
+  margin-top: 2.35rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.board-xLZ .boardtodo-QZF .boardtodo3-PQV .auto-group-cwts-WG9 .like-rau {
+  margin-bottom: 0.4rem;
+  width: 4rem;
+  height: 3.3rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.board-xLZ .boardtodo-QZF .boardtodo3-PQV .auto-group-cwts-WG9 .heartnum-om3 {
+  margin-top: 5px;
+  font-size: 2.1rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #70665d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.board-xLZ .boardtodo-QZF .boardtodo4-6EM {
+  box-sizing: border-box;
+  padding: 0.7rem 4rem 0.95rem 3rem;
+  width: 100%;
+  height: 12.2rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.150000006);
+  backdrop-filter: blur(0.2rem);
+  background-color: rgba(255, 255, 255, 0.400000006);
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.board-xLZ .boardtodo-QZF .boardtodo4-6EM .boardlistprofile-1MK {
+  margin: 0.25rem 1rem 0rem 0rem;
+  width: 8rem;
+  height: 8rem;
+  border: solid 0.2rem #e5d0fb;
+  box-sizing: border-box;
+  background-color: rgba(229, 207, 250, 0.4199999869);
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.board-xLZ .boardtodo-QZF .boardtodo4-6EM .auto-group-4nj3-iWd {
+  margin-right: 35rem;
+  width: 37.5rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.board-xLZ
+  .boardtodo-QZF
+  .boardtodo4-6EM
+  .auto-group-4nj3-iWd
+  .boardlistuser-FWZ {
+  width: 37.5rem;
+  height: 3.2rem;
+  position: absolute;
+  left: 0;
+  top: 1.25rem;
+  display: flex;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.125rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.board-xLZ
+  .boardtodo-QZF
+  .boardtodo4-6EM
+  .auto-group-4nj3-iWd
+  .boardlistdate-ANd {
+  width: 10.1rem;
+  height: 1.7rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.board-xLZ
+  .boardtodo-QZF
+  .boardtodo4-6EM
+  .auto-group-4nj3-iWd
+  .boardlistcontent-VA1 {
+  width: 700px;
+  height: 6.3rem;
+  position: absolute;
+  left: 0;
+  top: 4.25rem;
+  display: flex;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+}
+.board-xLZ .boardtodo-QZF .boardtodo4-6EM .auto-group-ovem-oRb {
+  margin-top: 2.35rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.board-xLZ .boardtodo-QZF .boardtodo4-6EM .auto-group-ovem-oRb .like-xJV {
+  margin-bottom: 0.4rem;
+  width: 4rem;
+  height: 3.3rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.board-xLZ .boardtodo-QZF .boardtodo4-6EM .auto-group-ovem-oRb .heartnum-WL1 {
+  margin-top: 5px;
+  font-size: 2.1rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #70665d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}

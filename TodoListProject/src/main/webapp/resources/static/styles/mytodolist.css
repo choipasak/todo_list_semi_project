@@ -1,0 +1,1258 @@
+html {
+  font-size: 62.5%;
+  background-image: url(../assets/bg.png);
+}
+* {
+  margin: auto;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+input {
+  border: none;
+}
+body {
+  width: 192rem;
+}
+.mytodolist-psK {
+  box-sizing: border-box;
+  padding: 3rem 10rem 2rem 10rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+.mytodolist-psK .profilebox-nxZ {
+  margin-right: 3.9rem;
+  box-sizing: border-box;
+  padding: 4.4rem 8.5rem 7.4rem 8.5rem;
+  width: 43.4rem;
+  height: 85rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.150000006);
+  background-color: rgba(52, 152, 219, 0.5500000119);
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.mytodolist-psK .profilebox-nxZ .profile-qpM {
+  margin: 0rem 2.05rem 3.2rem 2.7rem;
+  width: calc(100% - 4.75rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.mytodolist-psK .profilebox-nxZ .profile-qpM .auto-group-zsth-kAd {
+  box-sizing: border-box;
+  padding: 0rem 3.75rem 0.7rem 3.8rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .profilebox-nxZ
+  .profile-qpM
+  .auto-group-zsth-kAd
+  .profilcricle-3fX {
+  margin-bottom: 0.1rem;
+  width: 100%;
+  height: 14.1rem;
+  background-color: #d5bcd9;
+  border-radius: 7.05rem;
+  flex-shrink: 0;
+}
+.mytodolist-psK .profilebox-nxZ .profile-qpM .auto-group-zsth-kAd .userid-9yT {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.25rem;
+  color: #f1f9ff;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mytodolist-psK .profilebox-nxZ .profile-qpM .auto-group-xfzk-QuP {
+  width: 100%;
+  height: 7.8rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .profilebox-nxZ
+  .profile-qpM
+  .auto-group-xfzk-QuP
+  .auto-group-azg1-MJq {
+  margin: 0.55rem 0rem 0.75rem 0rem;
+  width: 7.5rem;
+  height: calc(100% - 1.3rem);
+  position: relative;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .profilebox-nxZ
+  .profile-qpM
+  .auto-group-xfzk-QuP
+  .auto-group-azg1-MJq
+  .k-eYq {
+  width: 7.5rem;
+  height: 3.8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.15rem;
+  color: #f1f9ff;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.mytodolist-psK
+  .profilebox-nxZ
+  .profile-qpM
+  .auto-group-xfzk-QuP
+  .auto-group-azg1-MJq
+  .like-3Db {
+  width: 4.2rem;
+  height: 3.2rem;
+  position: absolute;
+  left: 1.15rem;
+  top: 3.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.125rem;
+  color: #f1f9ff;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.mytodolist-psK .profilebox-nxZ .profile-qpM .auto-group-xfzk-QuP .whiteline {
+  margin-right: 3.25rem;
+  width: 2px;
+  height: 7.8rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 1rem;
+  flex-shrink: 0;
+  background-color: #f1f9ff;
+}
+.mytodolist-psK
+  .profilebox-nxZ
+  .profile-qpM
+  .auto-group-xfzk-QuP
+  .auto-group-n98u-RV3 {
+  margin: 0.55rem 0rem 0.75rem 0rem;
+  width: 7.8rem;
+  height: calc(100% - 1.3rem);
+  position: relative;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .profilebox-nxZ
+  .profile-qpM
+  .auto-group-xfzk-QuP
+  .auto-group-n98u-RV3
+  .item-50-YJm {
+  width: 3.3rem;
+  height: 3.8rem;
+  position: absolute;
+  left: 2.25rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.15rem;
+  color: #f1f9ff;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.mytodolist-psK
+  .profilebox-nxZ
+  .profile-qpM
+  .auto-group-xfzk-QuP
+  .auto-group-n98u-RV3
+  .my-list-Cu7 {
+  width: 7.8rem;
+  height: 3.2rem;
+  position: absolute;
+  left: 0;
+  top: 3.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.125rem;
+  color: #f1f9ff;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+.mytodolist-psK .profilebox-nxZ .mypagemenu-Vmj {
+  margin: 0rem 4rem 9.65rem 3.9rem;
+  width: calc(100% - 7.9rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin-bottom: 30px;
+}
+.mytodolist-psK .profilebox-nxZ .mypagemenu-Vmj .myaccount-Dhj {
+  margin-top: 40px;
+  margin-bottom: 3.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.16rem;
+  color: #f1f9ff;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  background-color: transparent;
+  border: none;
+}
+.mytodolist-psK .profilebox-nxZ .mypagemenu-Vmj .mytodolist-8ph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.16rem;
+  color: #f1f9ff;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  background-color: transparent;
+  border: none;
+}
+.mytodolist-psK .profilebox-nxZ .mypagemenu-Vmj .logout-qg4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.16rem;
+  color: #f1f9ff;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-top: 50px;
+  margin-bottom: 0;
+  background-color: transparent;
+  border: none;
+}
+.mytodolist-psK .profilebox-nxZ .todoksidelogo-eo3 {
+  width: 13.2rem;
+  height: 9.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.mytodolist-psK .auto-group-cugd-jpV {
+  margin-top: 0;
+  width: 124.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.mytodolist-psK .auto-group-cugd-jpV .mypagetitle-fi9 {
+  margin-bottom: 4.1rem;
+  box-sizing: border-box;
+  padding: 4.75rem 5.6rem 3.55rem 5.6rem;
+  width: 100%;
+  display: flex;
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 1.2125;
+  color: #8dc3e1;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(0.2rem);
+  background-color: rgba(255, 255, 255, 0.400000006);
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.mytodolist-psK .auto-group-cugd-jpV .mytodolist-SsK {
+  width: 100%;
+  row-gap: 4.1rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.mytodolist-psK .auto-group-cugd-jpV .mytodolist-SsK .auto-group-h7tv-ngH {
+  width: 100%;
+  height: 12.3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-h7tv-ngH
+  .recomd-8k9 {
+  margin-right: 5.7rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-h7tv-ngH
+  .recomd-8k9
+  .del-Hd3 {
+  margin-right: 1rem;
+  box-sizing: border-box;
+  padding: 5.1rem 1.5rem 5rem 1.6rem;
+  height: 100%;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.150000006);
+  backdrop-filter: blur(0.2rem);
+  background-color: rgba(203, 148, 148, 0.400000006);
+  border-radius: 3rem;
+  flex-shrink: 0;
+  border: none;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-h7tv-ngH
+  .recomd-8k9
+  .del-Hd3
+  .delbtn-CED {
+  width: 2.2rem;
+  height: 2.2rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-h7tv-ngH
+  .recomd-8k9
+  .auto-group-1rar-sLM {
+  box-sizing: border-box;
+  padding: 1.9rem 4.7rem 2.7rem 4rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(0.2rem);
+  background-color: rgba(255, 255, 255, 0.400000006);
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-h7tv-ngH
+  .recomd-8k9
+  .auto-group-1rar-sLM
+  .auto-group-5meh-6U1 {
+  margin: 0rem 7.7rem 1.1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-h7tv-ngH
+  .recomd-8k9
+  .auto-group-1rar-sLM
+  .auto-group-5meh-6U1
+  .regdate-EaD {
+  margin-bottom: 0.2rem;
+  display: flex;
+  font-size: 2.7rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.135rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-left: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-h7tv-ngH
+  .recomd-8k9
+  .auto-group-1rar-sLM
+  .auto-group-5meh-6U1
+  .this-is-one-line-content-9hB {
+  display: flex;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.15rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-h7tv-ngH
+  .recomd-8k9
+  .auto-group-1rar-sLM
+  .auto-group-vwhf-UUZ {
+  margin-top: 0.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-h7tv-ngH
+  .recomd-8k9
+  .auto-group-1rar-sLM
+  .auto-group-vwhf-UUZ
+  .like-dMT {
+  margin-bottom: 0.7rem;
+  width: 5rem;
+  height: 4.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-h7tv-ngH
+  .recomd-8k9
+  .auto-group-1rar-sLM
+  .auto-group-vwhf-UUZ
+  .k-yAR {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.075rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-h7tv-ngH
+  .recomd-1cu {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-h7tv-ngH
+  .recomd-1cu
+  .del-NCZ {
+  margin-right: 1rem;
+  box-sizing: border-box;
+  padding: 5.1rem 1.5rem 5rem 1.6rem;
+  height: 100%;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.150000006);
+  backdrop-filter: blur(0.2rem);
+  background-color: rgba(203, 148, 148, 0.400000006);
+  border-radius: 3rem;
+  flex-shrink: 0;
+  border: none;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-h7tv-ngH
+  .recomd-1cu
+  .del-NCZ
+  .delbtn-6uF {
+  width: 2.2rem;
+  height: 2.2rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-h7tv-ngH
+  .recomd-1cu
+  .auto-group-vbym-mEh {
+  box-sizing: border-box;
+  padding: 1.9rem 4.7rem 2.7rem 4rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(0.2rem);
+  background-color: rgba(255, 255, 255, 0.400000006);
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-h7tv-ngH
+  .recomd-1cu
+  .auto-group-vbym-mEh
+  .auto-group-2xxd-HD3 {
+  margin: 0rem 7.7rem 1.1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-h7tv-ngH
+  .recomd-1cu
+  .auto-group-vbym-mEh
+  .auto-group-2xxd-HD3
+  .regdate-DcV {
+  margin-bottom: 0.2rem;
+  display: flex;
+  font-size: 2.7rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.135rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-left: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-h7tv-ngH
+  .recomd-1cu
+  .auto-group-vbym-mEh
+  .auto-group-2xxd-HD3
+  .this-is-one-line-content-v17 {
+  display: flex;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.15rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-h7tv-ngH
+  .recomd-1cu
+  .auto-group-vbym-mEh
+  .auto-group-8umf-q85 {
+  margin-top: 0.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-h7tv-ngH
+  .recomd-1cu
+  .auto-group-vbym-mEh
+  .auto-group-8umf-q85
+  .like-BSq {
+  margin-bottom: 0.7rem;
+  width: 5rem;
+  height: 4.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-h7tv-ngH
+  .recomd-1cu
+  .auto-group-vbym-mEh
+  .auto-group-8umf-q85
+  .k-ixZ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.075rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mytodolist-psK .auto-group-cugd-jpV .mytodolist-SsK .auto-group-m8df-AZf {
+  width: 100%;
+  height: 12.3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-m8df-AZf
+  .recomd-Jvm {
+  margin-right: 5.7rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-m8df-AZf
+  .recomd-Jvm
+  .del-eUq {
+  margin-right: 1rem;
+  box-sizing: border-box;
+  padding: 5.1rem 1.5rem 5rem 1.6rem;
+  height: 100%;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.150000006);
+  backdrop-filter: blur(0.2rem);
+  background-color: rgba(203, 148, 148, 0.400000006);
+  border-radius: 3rem;
+  flex-shrink: 0;
+  border: none;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-m8df-AZf
+  .recomd-Jvm
+  .del-eUq
+  .delbtn-adP {
+  width: 2.2rem;
+  height: 2.2rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-m8df-AZf
+  .recomd-Jvm
+  .auto-group-4h3p-4YZ {
+  box-sizing: border-box;
+  padding: 1.9rem 4.7rem 2.7rem 4rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(0.2rem);
+  background-color: rgba(255, 255, 255, 0.400000006);
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-m8df-AZf
+  .recomd-Jvm
+  .auto-group-4h3p-4YZ
+  .auto-group-hrk5-nUZ {
+  margin: 0rem 7.7rem 1.1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-m8df-AZf
+  .recomd-Jvm
+  .auto-group-4h3p-4YZ
+  .auto-group-hrk5-nUZ
+  .regdate-vam {
+  margin-bottom: 0.2rem;
+  display: flex;
+  font-size: 2.7rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.135rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-left: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-m8df-AZf
+  .recomd-Jvm
+  .auto-group-4h3p-4YZ
+  .auto-group-hrk5-nUZ
+  .this-is-one-line-content-3vH {
+  display: flex;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.15rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-m8df-AZf
+  .recomd-Jvm
+  .auto-group-4h3p-4YZ
+  .auto-group-ez2v-Mg5 {
+  margin-top: 0.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-m8df-AZf
+  .recomd-Jvm
+  .auto-group-4h3p-4YZ
+  .auto-group-ez2v-Mg5
+  .like-Go3 {
+  margin-bottom: 0.7rem;
+  width: 5rem;
+  height: 4.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-m8df-AZf
+  .recomd-Jvm
+  .auto-group-4h3p-4YZ
+  .auto-group-ez2v-Mg5
+  .k-pJm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.075rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-m8df-AZf
+  .recomd-5kV {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-m8df-AZf
+  .recomd-5kV
+  .del-Sb3 {
+  margin-right: 1rem;
+  box-sizing: border-box;
+  padding: 5.1rem 1.5rem 5rem 1.6rem;
+  height: 100%;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(0.2rem);
+  background-color: rgba(203, 148, 148, 0.400000006);
+  border-radius: 3rem;
+  flex-shrink: 0;
+  border: none;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-m8df-AZf
+  .recomd-5kV
+  .del-Sb3
+  .delbtn-neu {
+  width: 2.2rem;
+  height: 2.2rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-m8df-AZf
+  .recomd-5kV
+  .auto-group-wrcm-tC9 {
+  box-sizing: border-box;
+  padding: 1.9rem 4.7rem 2.7rem 4rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(0.2rem);
+  background-color: rgba(255, 255, 255, 0.400000006);
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-m8df-AZf
+  .recomd-5kV
+  .auto-group-wrcm-tC9
+  .auto-group-lzpm-p5o {
+  margin: 0rem 7.7rem 1.1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-m8df-AZf
+  .recomd-5kV
+  .auto-group-wrcm-tC9
+  .auto-group-lzpm-p5o
+  .regdate-YXb {
+  margin-bottom: 0.2rem;
+  display: flex;
+  font-size: 2.7rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.135rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-left: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-m8df-AZf
+  .recomd-5kV
+  .auto-group-wrcm-tC9
+  .auto-group-lzpm-p5o
+  .this-is-one-line-content-3UM {
+  display: flex;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.15rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-m8df-AZf
+  .recomd-5kV
+  .auto-group-wrcm-tC9
+  .auto-group-9ix9-Mjw {
+  margin-top: 0.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-m8df-AZf
+  .recomd-5kV
+  .auto-group-wrcm-tC9
+  .auto-group-9ix9-Mjw
+  .like-7UD {
+  margin-bottom: 0.7rem;
+  width: 5rem;
+  height: 4.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-m8df-AZf
+  .recomd-5kV
+  .auto-group-wrcm-tC9
+  .auto-group-9ix9-Mjw
+  .k-ej3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.075rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mytodolist-psK .auto-group-cugd-jpV .mytodolist-SsK .auto-group-jcem-vRf {
+  width: 100%;
+  height: 12.3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-jcem-vRf
+  .recomd-GEd {
+  margin-right: 5.7rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-jcem-vRf
+  .recomd-GEd
+  .del-2Do {
+  margin-right: 1rem;
+  box-sizing: border-box;
+  padding: 5.1rem 1.5rem 5rem 1.6rem;
+  height: 100%;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.150000006);
+  backdrop-filter: blur(0.2rem);
+  background-color: rgba(203, 148, 148, 0.400000006);
+  border-radius: 3rem;
+  flex-shrink: 0;
+  border: none;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-jcem-vRf
+  .recomd-GEd
+  .del-2Do
+  .delbtn-mBP {
+  width: 2.2rem;
+  height: 2.2rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-jcem-vRf
+  .recomd-GEd
+  .auto-group-obk7-rTj {
+  box-sizing: border-box;
+  padding: 1.9rem 4.7rem 2.7rem 4rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(0.2rem);
+  background-color: rgba(255, 255, 255, 0.400000006);
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-jcem-vRf
+  .recomd-GEd
+  .auto-group-obk7-rTj
+  .auto-group-xyvf-Bku {
+  margin: 0rem 7.7rem 1.1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-jcem-vRf
+  .recomd-GEd
+  .auto-group-obk7-rTj
+  .auto-group-xyvf-Bku
+  .regdate-KcD {
+  margin-bottom: 0.2rem;
+  display: flex;
+  font-size: 2.7rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.135rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-left: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-jcem-vRf
+  .recomd-GEd
+  .auto-group-obk7-rTj
+  .auto-group-xyvf-Bku
+  .this-is-one-line-content-e8h {
+  display: flex;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.15rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-jcem-vRf
+  .recomd-GEd
+  .auto-group-obk7-rTj
+  .auto-group-u6mf-a2M {
+  margin-top: 0.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-jcem-vRf
+  .recomd-GEd
+  .auto-group-obk7-rTj
+  .auto-group-u6mf-a2M
+  .like-vc1 {
+  margin-bottom: 0.7rem;
+  width: 5rem;
+  height: 4.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-jcem-vRf
+  .recomd-GEd
+  .auto-group-obk7-rTj
+  .auto-group-u6mf-a2M
+  .k-U7j {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.075rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-jcem-vRf
+  .recomd-8TB {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-jcem-vRf
+  .recomd-8TB
+  .del-tSM {
+  margin-right: 1rem;
+  box-sizing: border-box;
+  padding: 5.1rem 1.5rem 5rem 1.6rem;
+  height: 100%;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(0.2rem);
+  background-color: rgba(203, 148, 148, 0.400000006);
+  border-radius: 3rem;
+  flex-shrink: 0;
+  border: none;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-jcem-vRf
+  .recomd-8TB
+  .del-tSM
+  .delbtn-DDj {
+  width: 2.2rem;
+  height: 2.2rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-jcem-vRf
+  .recomd-8TB
+  .auto-group-4jhp-iRP {
+  box-sizing: border-box;
+  padding: 1.9rem 4.7rem 2.7rem 4rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(0.2rem);
+  background-color: rgba(255, 255, 255, 0.400000006);
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-jcem-vRf
+  .recomd-8TB
+  .auto-group-4jhp-iRP
+  .auto-group-afcd-3Cm {
+  margin: 0rem 7.7rem 1.1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-jcem-vRf
+  .recomd-8TB
+  .auto-group-4jhp-iRP
+  .auto-group-afcd-3Cm
+  .regdate-Nkq {
+  margin-bottom: 0.2rem;
+  display: flex;
+  font-size: 2.7rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.135rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-left: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-jcem-vRf
+  .recomd-8TB
+  .auto-group-4jhp-iRP
+  .auto-group-afcd-3Cm
+  .this-is-one-line-content-tz5 {
+  display: flex;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.15rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-jcem-vRf
+  .recomd-8TB
+  .auto-group-4jhp-iRP
+  .auto-group-wou3-RUD {
+  margin-top: 0.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-jcem-vRf
+  .recomd-8TB
+  .auto-group-4jhp-iRP
+  .auto-group-wou3-RUD
+  .like-mny {
+  margin-bottom: 0.7rem;
+  width: 5rem;
+  height: 4.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.mytodolist-psK
+  .auto-group-cugd-jpV
+  .mytodolist-SsK
+  .auto-group-jcem-vRf
+  .recomd-8TB
+  .auto-group-4jhp-iRP
+  .auto-group-wou3-RUD
+  .k-iTK {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  letter-spacing: 0.075rem;
+  color: #70665d;
+  font-family: Nanum AmSeuTeReuDam, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
