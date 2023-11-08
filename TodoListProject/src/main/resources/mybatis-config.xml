@@ -17,11 +17,20 @@
 	
 	<!-- resultType 등 패키지 풀 경로 및 클래스 타입을 작성할 때, 경로에 별칭을 붙여주는 설정 -->
 	<typeAliases>
+	    <typeAlias type="com.spring.todoproject.board.entity.Board" alias="board" />
+	    <typeAlias type="com.spring.todoproject.board.dto.BoareListRequestDTO" alias="boardMap" />
 		<!-- <typeAlias type="com.spring.todoproject.freeboard.entity.FreeBoard" alias="freeboard" /> -->
-		<!-- <typeAlias type="com.spring.todoproject.user.entity.User" alias="user" /> -->
+		<typeAlias type="com.spring.todoproject.user.entity.User" alias="user" />
 		<!-- <typeAlias type="com.spring.todoproject.reply.entity.Reply" alias="reply" />
 		<typeAlias type="com.spring.todoproject.snsboard.entity.SnsBoard" alias="sns" /> -->
 	</typeAliases>
+	<!-- <typeAliases>
+		<typeAlias type="com.spring.todoproject.freeboard.entity.FreeBoard" alias="freeboard" />
+		<typeAlias type="com.spring.todoproject.user.entity.User" alias="user" />
+		<typeAlias type="com.spring.todoproject.board.entity.Board" alias="board" />
+		<typeAlias type="com.spring.todoproject.reply.entity.Reply" alias="reply" />
+		<typeAlias type="com.spring.todoproject.snsboard.entity.SnsBoard" alias="sns" />
+	</typeAliases> -->
 	
 </configuration>
     

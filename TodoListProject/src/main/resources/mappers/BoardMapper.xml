@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper
+	namespace="com.spring.todoproject.board.mapper.IBoardMapper">
+	
+	<!-- 이렇게 해주는거 귀찮 그냥 이름 맞춰주자 -> 이러면 안됌. <resultMap type="" id=""></resultMap> 
+		Mybatis의 설정에 이름 바꾸는 설정을 작성해서 적용시켜준다 -> 더이상 이렇게 매번 작성하지 않아도 된다 -->
+
+	<insert id="boardRegist">
+		INSERT INTO board
+		(board_bno,content,user_id)
+		VALUES(seq_board_bno.NEXTVAL, #{content} , #{userId})
+	</insert>
+
+	
+	
+	
+	<select id="boardListNew" resultType="boardMap">
+		SELECT * FROM 
+		(
+		    SELECT ROWNUM AS RN,tbl.* FROM
+		    
+		        (
+		        SELECT a.*,
+		              (SELECT count(*) FROM board_like b  
+		              WHERE b.board_bno = a.board_bno ) AS likeCount,
+		        	  (SELECT 'LIKE' FROM board_like c  
+              		  WHERE c.board_bno = a.board_bno 
+              		    AND c.like_click_id = #{userId}) AS likeFlag,
+              		  (SELECT d.profile_color FROM users d
+              		  WHERE d.user_id = a.user_id) AS profileColor
+		        FROM board a
+		        ORDER BY a.board_regdate DESC
+		        ) tbl
+		     )
+	     <![CDATA[
+		WHERE RN > #{paging.pageStart} AND RN <= #{paging.pageEnd}
+		]]>
+	</select>
+	
+		<select id="boardListBest" resultType="boardMap">
+		SELECT * FROM 
+ 		   (
+    		SELECT ROWNUM AS RN,tbl2.* FROM
+        		(    
+            	SELECT  tbl.*
+            		FROM 
+           			(SELECT a.*,
+                    	(SELECT count(*) FROM board_like b  
+                    	WHERE b.board_bno = a.board_bno ) AS likeCount     ,
+                    	(SELECT 'LIKE' FROM board_like c  
+              		  	WHERE c.board_bno = a.board_bno 
+              		    AND c.like_click_id = #{userId}) AS likeFlag  ,
+              		    (SELECT d.profile_color FROM users d
+              		  	WHERE d.user_id = a.user_id) AS profileColor       
+	           			FROM board a
+            		) tbl
+            
+            	ORDER BY tbl.count DESC
+        		)    tbl2
+     		)
+	     <![CDATA[   
+		 WHERE RN > #{paging.pageStart} AND RN <= #{paging.pageEnd}
+		 ]]>
+        
+
+	</select>
+
+
+</mapper>

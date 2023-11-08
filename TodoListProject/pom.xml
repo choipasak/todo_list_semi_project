@@ -247,6 +247,13 @@
 		    <artifactId>json-simple</artifactId>
 		    <version>1.1.1</version>
 		</dependency>
+		
+		<!-- Java 8의 날짜/시간 유형 -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
+            <version>2.12.5</version> <!-- 사용 가능한 Jackson 버전에 따라 업데이트 -->
+        </dependency>
         
  
            

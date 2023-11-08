@@ -36,6 +36,9 @@
      
      
     <mybatis-spring:scan base-package="com.spring.todoproject.user.mapper"/>
+    <mybatis-spring:scan base-package="com.spring.todoproject.mytodolist.mapper" />
+    <mybatis-spring:scan base-package="com.spring.todoproject.main.mapper"/>
+   	<mybatis-spring:scan base-package="com.spring.todoproject.board.mapper"/>
      <!-- 
         SqlSessionFactory가 여러분이 지정하신 경로의 xml 파일을 클래스로 변환하여
         bean으로 등록하려는 시도를 할 때, 어떤 타입으로 빈 등록을 할 지를 결정해야 하는데,
