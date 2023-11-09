@@ -237,7 +237,7 @@ pageEncoding="UTF-8"%>
           <button
             type="button"
             class="goboardbtn-WWd"
-            onclick="location.href='${pageContext.request.contextPath}/todok/board'"
+            onclick="location.href='${pageContext.request.contextPath}/board'"
           >
             go to board
           </button>

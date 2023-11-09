@@ -123,6 +123,10 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
+textarea#content {
+  resize: none;
+}
+
 .board-xLZ .boardorderbtn-oA9 {
   margin: 0rem 61rem 2rem 61.5rem;
   width: calc(100% - 122.5rem);
@@ -210,6 +214,9 @@ body {
   background-color: rgba(229, 207, 250, 0.4199999869);
   border-radius: 4rem;
   flex-shrink: 0;
+}
+.boardtodo1-W6V {
+  margin-bottom: 15px;
 }
 .board-xLZ .boardtodo-QZF .boardtodo1-W6V .auto-group-8wsh-Kpd {
   margin-right: 35rem;

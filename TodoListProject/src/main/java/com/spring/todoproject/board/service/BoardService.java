@@ -12,9 +12,12 @@ import com.spring.todoproject.board.dto.BoareListRequestDTO;
 import com.spring.todoproject.board.dto.page.Page;
 import com.spring.todoproject.board.mapper.IBoardMapper;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.java.Log;
+import lombok.extern.slf4j.Slf4j;
 
 @Service
 @RequiredArgsConstructor
+@Slf4j
 public class BoardService  implements IBoardService{
 	
 	@Autowired
@@ -62,14 +65,14 @@ public class BoardService  implements IBoardService{
 			selNum = Integer.parseInt(selectNum);
 		} catch (NumberFormatException e) {
 		    // 문자열이 유효한 정수가 아닌 경우 예외 처리
-			selNum = 2; // 또는 기본값 또는 다른 오류 처리 로직을 수행
+			selNum = 1; // 또는 기본값 또는 다른 오류 처리 로직을 수행
 		}
 		
 		String userId = params.get("userId");
 		System.out.println("/getList: params: " + pageNumber + " : " + selNum + " : " +userId);
 		
 		List<BoareListRequestDTO> dtolist = new ArrayList<>();
-		if(selNum == 1 ) {
+		if(selNum == 2 ) {
 			
 			dtolist = mapper.boardListBest
 					(Page.builder()
@@ -87,10 +90,14 @@ public class BoardService  implements IBoardService{
 							.amount(5)
 							.build()
 					, userId);
-			
 			return dtolist;
 		}
 		
+	}
+
+	@Override
+	public String getNickName(String userId) {	
+		return mapper.getNickName(userId);
 	}
 	
 	

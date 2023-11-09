@@ -13,6 +13,9 @@ public interface IBoardService {
 //	List<BoareListRequestDTO> getList(int page, int selectNum , String userId);
 
 	List<BoareListRequestDTO> getList(Map<String, String> params);
+	
+	// 아이디 값을 통해서 닉네임 가져오기
+	String getNickName(String userId);
 
 	
 }

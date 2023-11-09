@@ -19,4 +19,7 @@ public interface IBoardMapper {
 	// 인기순 보드 list + 좋아요 count
 	List<BoareListRequestDTO> boardListBest(@Param("paging") Page page, @Param("userId") String userId);
 
+	// 아이디 값으로 닉네임 가져오기
+	String getNickName(String userId);
+	
 }
